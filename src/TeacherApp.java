@@ -71,7 +71,7 @@ public class TeacherApp {
                     System.out.println(" ");
                     int iCount = 0;
                     for (int i = 0; i < list.size(); i++) {
-                        System.out.println(list.get(i).getName() + " - " + list.get(i).getStuID() + " - " + list.get(i).getClassName() + " - " + list.get(i).getLetterGrade());
+                        System.out.println(list.get(i).getName() + " - " + list.get(i).getStuID() + " - " + list.get(i).getClassName() + " - " + list.get(i).getAverage() + " - " + list.get(i).getLetterGrade());
                         System.out.println(" ");
                         iCount++;
                     }
